@@ -7,12 +7,12 @@ body {
 
   .container {
     display: grid;
-    grid-template-columns: repeat(4, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     padding: 40px;
     justify-content: center;
     max-width: 1200px;
-    margin: 0 auto; /* Add this to center the container horizontally */
+    margin: 0 auto;
 }
 
 .card {
