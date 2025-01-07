@@ -1,0 +1,141 @@
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 40px 0px 0px 0px;
+    background: #fff;
+    z-index: 1000;
+    padding: 20px;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 40px;
+}
+
+.name{
+    font-size:xx-large;
+    font-weight: bold;
+    margin: 0;
+    text-decoration: underline blue;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 40px;
+    transition: 0.3s ease;
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 16px 20px;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover{
+    color: blue;
+}
+
+.nav a.active{
+    color: blue;
+}
+
+.menu-btn{
+    display: none;
+}
+
+main{
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.social-icon:hover{
+    color: blue;
+}
+
+.about{
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-section {
+    text-align: center;
+    flex: 1;
+    padding: 0px 10px;
+}
+
+.footer-sec-1{
+    margin-left: 80px;
+    font-size: 14px;
+}
+.footer-section-1 div{
+    float: left;
+    text-align: center;
+    flex: 1;
+}
+
+.footer-section h3 {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.footer-section p {
+    margin: 5px 0;
+    color: #333;
+    font-size: 12px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-social-icons a {
+    padding: 10px;
+    font-size: 15px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.footer-section-1 .footer-section{
+    padding-left: 100px;
+}
+#phone{
+    font-size: 13px;
+}
+
+#phone:hover, #mail:hover {
+    text-decoration:overline;
+    color: rgb(0, 76, 255);
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-size: 2rem;
+    color: #000dff; 
+    transition: opacity 0.5s ease-in-out;
+
+}

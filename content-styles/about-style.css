@@ -1,0 +1,187 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.split-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+/* Left Section */
+.left-section {
+    width: 50%;
+    background-color: #64568d38;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    overflow: visible;
+}
+
+.profile-card {
+    background-color: #4150c13d;
+    box-shadow: 1px 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 280px;
+    height: 420px;
+    position: absolute;
+    right: -50px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.profile-name {
+    font-size: 1.5rem;
+    color: #f8f8f8;
+    margin-bottom: 5px;
+}
+
+.profile-role {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 7px;
+}
+
+.social-icons:hover{
+    box-shadow: 1px 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-icon {
+    padding-top: 10px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover{
+    color: blue;
+}
+/* Right Section */
+.right-section {
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.content {
+    max-width: 500px;
+    text-align: left;
+}
+
+.content h1 {
+    font-size: 6rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.content p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.content p.who {
+    font-size: 1.5rem;
+    color: #666;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 7px 15px;
+    font-size: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn.primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn.secondary {
+    background-color: transparent;
+    color: #000000;
+}
+
+.btn.primary:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn.secondary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .split-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-section, .right-section {
+        width:90%;
+        padding: 20px;
+    }
+
+    .left-section {
+        justify-content: center;
+    }
+
+    .profile-card {
+        position: static;
+        right: 0;
+        margin: 20px auto;
+    }
+
+    .right-section {
+        padding-left: 20px;
+    }
+
+    .content h1 {
+        text-align:center;
+        font-size: 4rem;
+    }
+
+    .content p.who {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .buttons{
+        text-align: center;
+    }
+}
