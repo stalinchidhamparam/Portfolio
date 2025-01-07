@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color:#e8e5ee;
   }
 
   .container {
@@ -43,7 +43,7 @@ body {
 
   .card-front, .card-back {
     position: absolute;
-    width: 100%;
+    width: 95%;
     height: 100%;
     backface-visibility: hidden;
     display: flex;
@@ -60,7 +60,7 @@ body {
   }
 
   .card-back {
-    background: #0044ff;
+    background-color: #4150c13d;
     color: white;
     transform: rotateY(180deg);
   }
