@@ -11,7 +11,6 @@ Welcome to my personal portfolio website, showcasing my skills, projects, and pr
 - [Skills](#skills)
 - [Projects](#projects)
 - [Contact](#contact)
-- [License](#license)
 
 ## About
 
@@ -53,7 +52,3 @@ Feel free to reach out to me via:
 - **Phone:** [+91 8637670543](tel:+918637670543)
 
 Connect with me on [LinkedIn](#) and follow me on [GitHub](#).
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
