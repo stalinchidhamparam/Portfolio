@@ -15,7 +15,7 @@ body, html {
 /* Left Section */
 .left-section {
     width: 50%;
-    background-color: #64568d38;
+    background-color: #e8dbcf62;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -24,7 +24,7 @@ body, html {
 }
 
 .profile-card {
-    background-color: #4150c13d;
+    background-color: #545fb13d;
     box-shadow: 1px 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     padding: 20px;

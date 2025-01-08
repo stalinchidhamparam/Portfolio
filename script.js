@@ -56,3 +56,29 @@ document.addEventListener("DOMContentLoaded", () => {
     // Load default page
     loadContent("about");
 });
+
+
+const galleryItems = document.querySelectorAll('.gallery-item');
+
+galleryItems.forEach((item) => {
+    item.addEventListener('click', (e) => {
+        if (e.target.tagName === 'IMG') {
+            const lightbox = document.createElement('div');
+            lightbox.classList.add('lightbox');
+            lightbox.innerHTML = `
+                <img src="${e.target.src}" alt="${e.target.alt}">
+                <button class="close-lightbox">&times;</button>
+            `;
+            document.body.appendChild(lightbox);
+            const closeLightbox = document.querySelector('.close-lightbox');
+            closeLightbox.addEventListener('click', () => {
+                lightbox.remove();
+            });
+            lightbox.addEventListener('click', (e) => {
+                if (e.target === lightbox) {
+                    lightbox.remove();
+                }
+            });
+        }
+    });
+});
