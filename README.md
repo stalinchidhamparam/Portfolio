@@ -2,7 +2,8 @@
 
 Welcome to my personal portfolio website, showcasing my skills, projects, and professional journey.
 
-![Portfolio Screenshot](screenshot.png)
+![portfolio-ss](https://github.com/user-attachments/assets/255c7e0c-0f4d-4d86-8de7-05284f3729f0)
+
 
 ## Table of Contents
 
